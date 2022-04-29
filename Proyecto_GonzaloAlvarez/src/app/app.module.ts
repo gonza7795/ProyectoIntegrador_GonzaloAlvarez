@@ -15,6 +15,8 @@ import { HysComponent } from './componentes/hys/hys.component';
 
  // Import ng-circle-progress
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { ProyectoComponent } from './componentes/proyecto/proyecto.component';
+import { FooterComponent } from './componentes/footer/footer.component';
  
 
 @NgModule({
@@ -27,7 +29,9 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     AcercaDeComponent,
     EducacionComponent,
     ExperienciaComponent,
-    HysComponent
+    HysComponent,
+    ProyectoComponent,
+    FooterComponent
     
   ],
   imports: [
