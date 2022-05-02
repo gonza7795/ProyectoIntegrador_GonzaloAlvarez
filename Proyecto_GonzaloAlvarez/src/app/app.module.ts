@@ -19,6 +19,7 @@ import { ProyectoComponent } from './componentes/proyecto/proyecto.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-sesion.component';
 import { PortfolioComponent } from './componentes/portfolio/portfolio.component';
+import { ReactiveFormsModule } from '@angular/forms';
  
 
 @NgModule({
@@ -41,7 +42,8 @@ import { PortfolioComponent } from './componentes/portfolio/portfolio.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgCircleProgressModule.forRoot({})
+    NgCircleProgressModule.forRoot({}),
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
