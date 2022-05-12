@@ -7,7 +7,7 @@ const routes: Routes = [
 
   {path: 'portfolio', component:PortfolioComponent},
   {path: 'iniciar-sesion', component:IniciarSesionComponent},
-  {path: '',redirectTo: 'iniciar-sesion', pathMatch: 'full'}
+  {path: '',redirectTo: 'portfolio', pathMatch: 'full'}
 
 
 
